@@ -1,0 +1,92 @@
+{
+  "editor.tabSize": 2,
+  "editor.fontFamily": "'Fira Code'",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 12,
+  "editor.minimap.enabled": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs":"active",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.openEditors.visible": 0,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.suggestSelection": "first",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.includeLanguages": {
+    "javascript": "html",
+    "ruby": "html",
+    "erb": "html",
+    "ejs": "html"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.activityBar.visible": true,
+  "workbench.statusBar.visible": true,
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.singleQuote": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.cursorBlinking": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.colorCustomizations": {
+    "terminal.background": "#1D1F21",
+    "terminal.foreground": "#C5C8C6",
+    "terminalCursor.background": "#C5C8C6",
+    "terminalCursor.foreground": "#C5C8C6",
+    "terminal.ansiBlack": "#1D1F21",
+    "terminal.ansiBlue": "#3971ED",
+    "terminal.ansiBrightBlack": "#969896",
+    "terminal.ansiBrightBlue": "#3971ED",
+    "terminal.ansiBrightCyan": "#3971ED",
+    "terminal.ansiBrightGreen": "#198844",
+    "terminal.ansiBrightMagenta": "#A36AC7",
+    "terminal.ansiBrightRed": "#CC342B",
+    "terminal.ansiBrightWhite": "#FFFFFF",
+    "terminal.ansiBrightYellow": "#FBA922",
+    "terminal.ansiCyan": "#3971ED",
+    "terminal.ansiGreen": "#198844",
+    "terminal.ansiMagenta": "#A36AC7",
+    "terminal.ansiRed": "#CC342B",
+    "terminal.ansiWhite": "#C5C8C6",
+    "terminal.ansiYellow": "#FBA922"
+  },
+  // Vue Custom By User
+  "vetur.validation.template": false,
+  "vetur.validation.script": false,
+  "vetur.validation.style": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  // For login shell
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash",
+      "icon": "terminal-bash",
+      "args": ["--login"]
+    },
+    "zsh": {
+      "path": "zsh",
+      "args": ["-l"]
+    },
+  },
+}
