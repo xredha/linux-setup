@@ -32,7 +32,7 @@
 ```sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```
 ### 4. Install Powerlevel10k
 - Install recommended font  
-Tutorial [link](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k)
+Tutorial [link](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k) or Download it on folder fonts (read Notes)
 - Install powerlevel10k  
 ```git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k```
 - Restart zsh  
@@ -55,4 +55,5 @@ copy all to ```/home/{your username OS}```
 ### Notes
 - Change default terminal [link](https://itsfoss.com/change-default-terminal-ubuntu/)  
 - Change default open in terminal linux mint [link](https://www.technipages.com/linux-mint-default-applications)  
+- You can download all fonts in folder fonts
 - If font cant use on vs code, install it on your OS. **Don't just copy in fonts folder**

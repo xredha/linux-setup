@@ -1,6 +1,6 @@
 {
   "editor.tabSize": 2,
-  "editor.fontFamily": "'Fira Code'",
+  "editor.fontFamily": "'Fira Code', 'Source Code Pro'",
   "editor.fontLigatures": true,
   "editor.fontSize": 12,
   "editor.minimap.enabled": false,
@@ -29,7 +29,7 @@
     "javascript": "html",
     "ruby": "html",
     "erb": "html",
-    "ejs": "html"
+    "ejs": "html",
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "liveServer.settings.donotShowInfoMsg": true,
